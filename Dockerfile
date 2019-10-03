@@ -1,5 +1,5 @@
 # Use the do288/httpd-parent image as base
-FROM centos:7
+FROM httpd:2.4
 
 # Change the port to 8080
 EXPOSE 8080
