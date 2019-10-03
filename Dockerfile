@@ -1,5 +1,5 @@
 # Use the do288/httpd-parent image as base
-FROM registry.lab.example.com:5000/do288/httpd-parent
+FROM centos:7
 
 # Change the port to 8080
 EXPOSE 8080
